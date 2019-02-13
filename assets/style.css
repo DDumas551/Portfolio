@@ -1,0 +1,84 @@
+@font-face {
+    font-family: aGlitchInTime;
+    src: url(../assets/fonts/a-glitch-in-time/);
+}
+
+@font-face {
+    font-family: acrossTheRoad;
+    src: url(../assets/fonts/across-the-road/);
+}
+
+@font-face {
+    font-family: alba;
+    src: url(../fonts/alba/ALBAS___.TTF);
+}
+
+@font-face {
+    font-family: aveX;
+    src: url(../fonts/avenue-x/AvenueX-Regular.otf)
+}
+
+@font-face {
+    font-family: earthquake;
+    src: url(../fonts/erthqake/ERTHQAKE.TTF)
+}
+
+@font-face {
+    font-family: planetKosmos;
+    src: url(../fonts/planet-kosmos/PLANK___.TTF)
+}
+
+body {
+    background-color: rgb(234, 231, 220);
+}
+
+.myName {
+    font-size: 35px;
+    color: rgb(232, 90, 79) !important;
+    font-family: acrossTheRoad !important;
+}
+
+.navBarBG {
+    background-color: rgb(216, 195, 165) !important;
+    min-height: 75px;
+    position: sticky;
+    top: 1px;
+    z-index: 2;
+}
+
+.endMessage {
+    font-size: 10px;
+    margin-top: 9px;
+}
+
+.navItemBar {
+    min-height: 75px;
+    padding-top: 10px;
+}
+
+.nav-item {
+    /* padding-top: 1px; */
+    margin-top: 10px;
+    min-width: 120px;
+    font-weight: bold;
+    color: rgb(232, 90, 79) !important;
+}
+
+.nav-item:hover {
+    font-weight: bolder;
+    font-size: 18px;
+    transform: skewY(360deg);
+    text-shadow: 3px 3px 7px rgb(139, 139, 139);
+    color: rgb(234, 231, 220) !important;
+    transition: .4s;
+}
+
+/* containers */
+
+.bodyContainer {
+    min-height: 100vh;
+}
+
+.aboutContainer {
+    margin-top: 60px;
+}
