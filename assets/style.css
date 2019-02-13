@@ -42,13 +42,14 @@ body {
     background-color: rgb(216, 195, 165) !important;
     min-height: 75px;
     position: sticky;
-    top: 1px;
+    top: 0px;
     z-index: 2;
+    border-radius: 11px;
 }
 
 .endMessage {
     font-size: 10px;
-    margin-top: 9px;
+    margin-top: 8px;
 }
 
 .navItemBar {
@@ -57,17 +58,14 @@ body {
 }
 
 .nav-item {
-    /* padding-top: 1px; */
     margin-top: 10px;
     min-width: 120px;
     font-weight: bold;
-    color: rgb(232, 90, 79) !important;
 }
 
 .nav-item:hover {
     font-weight: bolder;
     font-size: 18px;
-    transform: skewY(360deg);
     text-shadow: 3px 3px 7px rgb(139, 139, 139);
     color: rgb(234, 231, 220) !important;
     transition: .4s;
@@ -77,8 +75,23 @@ body {
 
 .bodyContainer {
     min-height: 100vh;
+    padding-top: 100px;
 }
 
 .aboutContainer {
-    margin-top: 60px;
+    /* padding-top: 100px; */
+}
+
+.experienceContainer {
+    /* padding-top: 100px; */
+}
+
+
+
+
+
+
+
+.interestsContainer {
+
 }
